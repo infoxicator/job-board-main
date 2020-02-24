@@ -13,3 +13,4 @@ deploy:
   acl: public_read
   local_dir: build/
   upload-dir: modules/job-board-main/
+  region: eu-west-2
