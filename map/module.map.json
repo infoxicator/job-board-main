@@ -1,0 +1,19 @@
+{
+  "key": "b366dcb0-fb13-4c10-97b5-fcb61fffca02",
+  "modules": {
+    "job-board-main": {
+      "browser": {
+        "url": "https://job-board-main.surge.sh/1.1.0/job-board-main.browser.js",
+        "integrity": "sha256-gIO7F1eZJoFy8QmcY1gmb1TXRV62hpU9coFVg7NDya8= sha384-h9PtaaQxWBOFjfGbyHztmI0rAkqUw5Vv3ntL2IXBa7QIjrL62mBUCybs5/IXlMJH"
+      },
+      "legacyBrowser": {
+        "url": "https://job-board-main.surge.sh/1.1.0/job-board-main.legacy.browser.js",
+        "integrity": "sha256-I7sYYLsgWkYIAyeixZlJKczuoCSD+MOpt3OUAVz572M= sha384-hK2Xl3QmAVvI1jvVFHkePFr6sMOyVr59IycbHg27g/kxkJTIAI7uQZK08Gi2+Hbx"
+      },
+      "node": {
+        "url": "https://job-board-main.surge.sh/job-board-main/1.1.0/job-board-main.node.js",
+        "integrity": "sha256-nQpSmkaRKkWRA2CsBr8e2w3UNIUA0wQNqdQx+QJodXQ= sha384-/82hujrZf9TnVJ/JALi/+eieFr4eRgnKJnkZfaAdGNGm7vJJlyoG4WjM8Cqf/zIs"
+      }
+    }
+  }
+}
