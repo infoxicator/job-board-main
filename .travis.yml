@@ -3,7 +3,7 @@ env:
 language: node_js
 node_js:
   - "12"
-install: npm ci
+install: NODE_ENV=development npm ci
 deploy:
   provider: s3
   access_key_id: $AWS_ACCESS_KEY
