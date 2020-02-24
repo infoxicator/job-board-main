@@ -1,0 +1,15 @@
+env:
+  - NODE_ENV="production"
+language: node_js
+node_js:
+  - "12"
+install: npm ci
+deploy:
+  provider: s3
+  access_key_id: $AWS_ACCESS_KEY
+  secret_access_key: $AWS_SECRET_KEY
+  bucket: one-app-modules
+  skip_cleanup: true
+  acl: public_read
+  local_dir: build/
+  upload-dir: modules/job-board-main/
