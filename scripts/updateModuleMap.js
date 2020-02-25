@@ -38,7 +38,7 @@ const doWork = async () => {
     };
 
     await fs.writeFile(
-      './map/module.map.json', JSON.stringify(moduleMapContent, null, 2)
+      './map/module-map.json', JSON.stringify(moduleMapContent, null, 2)
     );
   } catch (e) {
     console.log(e);
