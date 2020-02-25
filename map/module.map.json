@@ -1,18 +1,60 @@
 {
-  "key": "b366dcb0-fb13-4c10-97b5-fcb61fffca02",
+  "key": "64219c41-4675-44b6-9bb5-7c442558f149",
   "modules": {
+    "job-board-root": {
+      "browser": {
+        "integrity": "sha256-H+c7mkrzjm9/2uU1F7K6sHCFuSTXAfSOEVKuwmYVBEc= sha384-AZ6adknMbXataf3lua3OWIwqbiRbzIZDJjGWjxmxgw7Xfd6mersn/kWgXCEI7Zkv",
+        "url": "https://one-app-modules.s3.eu-west-2.amazonaws.com/static/modules/job-board-root/1.0.0/job-board-root.browser.js"
+      },
+      "legacyBrowser": {
+        "integrity": "sha256-VPa1t75pO8j/BFZF9mDzzimffx9JeKkMpbcfg8wF5wo= sha384-XnpFyoJwK0g7slnmsm9Ufms9gRnTRpOZwh0ESUD5k6psW5kAmiPWAYYvPiwoQ3BI",
+        "url": "https://one-app-modules.s3.eu-west-2.amazonaws.com/static/modules/job-board-root/1.0.0/job-board-root.legacy.browser.js"
+      },
+      "node": {
+        "integrity": "sha256-mlxo4DBfr9bg7b1DwF9/k83D/e/wIZEyh9UBwW/MWxk= sha384-24mbCf4FxtgxWkkU6ITh0hNecUvvULWrUo9JKiBBwUtHSkD51Efoccf2umNqPu7I",
+        "url": "https://one-app-modules.s3.eu-west-2.amazonaws.com/static/modules/job-board-root/1.0.0/job-board-root.node.js"
+      }
+    },
     "job-board-main": {
       "browser": {
-        "url": "https://job-board-main.surge.sh/1.1.0/job-board-main.browser.js",
+        "url": "https://one-app-modules.s3.eu-west-2.amazonaws.com/modules/job-board-main/1.1.0/job-board-main.browser.js",
         "integrity": "sha256-gIO7F1eZJoFy8QmcY1gmb1TXRV62hpU9coFVg7NDya8= sha384-h9PtaaQxWBOFjfGbyHztmI0rAkqUw5Vv3ntL2IXBa7QIjrL62mBUCybs5/IXlMJH"
       },
       "legacyBrowser": {
-        "url": "https://job-board-main.surge.sh/1.1.0/job-board-main.legacy.browser.js",
+        "url": "https://one-app-modules.s3.eu-west-2.amazonaws.com/modules/job-board-main/1.1.0/job-board-main.legacy.browser.js",
         "integrity": "sha256-I7sYYLsgWkYIAyeixZlJKczuoCSD+MOpt3OUAVz572M= sha384-hK2Xl3QmAVvI1jvVFHkePFr6sMOyVr59IycbHg27g/kxkJTIAI7uQZK08Gi2+Hbx"
       },
       "node": {
-        "url": "https://job-board-main.surge.sh/job-board-main/1.1.0/job-board-main.node.js",
+        "url": "https://one-app-modules.s3.eu-west-2.amazonaws.com/modules/job-board-main/1.1.0/job-board-main.node.js",
         "integrity": "sha256-nQpSmkaRKkWRA2CsBr8e2w3UNIUA0wQNqdQx+QJodXQ= sha384-/82hujrZf9TnVJ/JALi/+eieFr4eRgnKJnkZfaAdGNGm7vJJlyoG4WjM8Cqf/zIs"
+      }
+    },
+    "job-board-candidates": {
+      "browser": {
+        "integrity": "sha256-bq/L503yvxAjC3IX+k/dIbwF5DcBJZQlq6Ap96UuggM= sha384-Cgi3Wqs1vrMvFzpNK/QGwkAlcNHCH+5FHsJFue40i2gunzwS/H7oX8wE2sdeOBmX",
+        "url": "https://one-app-modules.s3.eu-west-2.amazonaws.com/static/modules/job-board-candidates/1.0.0/job-board-candidates.browser.js"
+      },
+      "legacyBrowser": {
+        "integrity": "sha256-pJZexC6AdJ8+cB5ehTvE8wSD/SQn+vR+VXlDTDxJ3CU= sha384-y7x4vy+m5zFnhdnjFw73PlfOCML8pW78WdbnXyUE/dKxauyFIP8eIn1CK5+U5Wq6",
+        "url": "https://one-app-modules.s3.eu-west-2.amazonaws.com/static/modules/job-board-candidates/1.0.0/job-board-candidates.legacy.browser.js"
+      },
+      "node": {
+        "integrity": "sha256-kDdp5OlPXmCaRq7/8xYpG9UNFydUPoRd/7PqKnjiVdo= sha384-2/s579lGWNuvXNTdGuioxGHh0q87+qQOTt3Bfknck7jzjZgVtCqcafCg+BM30zWN",
+        "url": "https://one-app-modules.s3.eu-west-2.amazonaws.com/static/modules/job-board-candidates/1.0.0/job-board-candidates.node.js"
+      }
+    },
+    "job-board-companies": {
+      "browser": {
+        "integrity": "sha256-bWHmeR0+3nfyo07EnV+/lFf8lweOvN2rdE8SjMolhvQ= sha384-I8AFYmc2j/pinhPLMf4xq0bVHynTknnXN6y+p0h0/bfVucw9asUMVtLXbd1l/Tb7",
+        "url": "https://one-app-modules.s3.eu-west-2.amazonaws.com/static/modules/job-board-companies/1.0.0/job-board-companies.browser.js"
+      },
+      "legacyBrowser": {
+        "integrity": "sha256-zyTImiPRVa8UwIjX7rr5BB5FUebyyN0k2MK5dyrX3Aw= sha384-LHkztMP8t+UfYPqTeu0pfmI6nzO8TPsJikEW022WW8fki0DR2Ydb6ht80a+/Pknp",
+        "url": "https://one-app-modules.s3.eu-west-2.amazonaws.com/static/modules/job-board-companies/1.0.0/job-board-companies.legacy.browser.js"
+      },
+      "node": {
+        "integrity": "sha256-aDpAf3f8U2iGAU5Kepk4CjEdUSpmzruXLOMNzXjf2gg= sha384-8cALlVULeR3CqaVd3s3zo2A9rGHrdqfQIF4PDxWppYtYrLg7XyjHPLYAnDKQ79fM",
+        "url": "https://one-app-modules.s3.eu-west-2.amazonaws.com/static/modules/job-board-companies/1.0.0/job-board-companies.node.js"
       }
     }
   }
