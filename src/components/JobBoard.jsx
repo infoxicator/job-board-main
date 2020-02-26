@@ -4,7 +4,7 @@ import { jobs } from '../fake-data';
 
 const JobBoard = () => (
   <div>
-    <h1 className="title">Job Board v1.1.0</h1>
+    <h1 className="title">Job Board Sample App</h1>
     <JobList jobs={jobs} />
   </div>
 );

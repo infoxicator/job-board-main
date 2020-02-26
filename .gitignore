@@ -27,3 +27,5 @@ __diff_output__
 *.tmp
 *.bak
 *.cya
+
+.idea/
